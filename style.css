@@ -1,0 +1,257 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: blueviolet;
+    color: white;
+    font-size:x-small;
+    padding-top: 3px;
+    padding-bottom: 3px;
+ }
+
+ .navbar .contact{
+    display: flex;
+  }
+
+ .navbar .contact .mail{
+    padding-right: 40px;
+ }
+
+ .navbar .details{
+    display: flex;
+ }
+
+ .navbar .details .usd{
+    padding-left: 15px;
+ }
+
+ .navbar .details .login{
+    padding-left: 15px;
+ }
+
+ .navbar .details .wishlist{
+    padding-left: 15px;
+ }
+
+ .navbar .details .cart{
+    padding-left: 15px;
+ }
+
+ /* nav///////////////////
+ //////////////////////////////
+ ////////////////////////////////// */
+ 
+ .nav{
+   display: flex;
+   height: 60px;
+}
+
+.nav .logo{
+   margin-left: 233px;
+   margin-right: 55px;
+   font-family: 'josefin Sans';
+   font-size: 34px;
+   line-height: 40px;
+   color: #0D0E43;
+   display: flex;
+   align-items: center;
+   font-weight: bold;
+}
+
+.nav .about{
+   display: flex;
+   font-family: 'Lato';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 20px;
+   color:#0D0E43;
+   display: flex;
+   align-items: center;
+   font-weight: bold;
+}
+
+.nav .about > div{
+   margin-right: 30px;
+}
+
+.nav .about .home{
+   color: #FB2E86;
+   font-family: 'Lato';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 20px;
+}
+
+/* .shop_grid_default//////////
+//////////////////////////////
+////////////////////////////////
+////////////////////////////// */
+
+.shop_grid_default{
+   background-color: #F6F5FF;
+   padding: 50px 100px 100px 230px;
+}
+
+.shop_grid_default .p_shop_grid_default{
+   font-family: 'Josefin Sans';
+   font-size: 36px; 
+   line-height: 42px;
+   /* text-align: center; */
+   color: #101750;
+   font-weight: bold;
+}
+
+.shop_grid_default .abouts{
+   display: flex;
+   /* background-color: red; */
+   margin-top: 15px;
+}
+
+.shop_grid_default .abouts > div{
+   padding-right: 10px;
+}
+
+.shop_grid_default .abouts .item{
+   font-family: 'Lato';
+   font-style: normal; 
+   /* font-weight: 500; */
+   font-size: 16px; 
+   line-height: 19px;
+   /* text-align: center; */
+   color: #000000;
+   font-weight: bold;
+}
+
+.shop_grid_default .abouts .item:hover{
+   font-family: 'Lato';
+   font-style: normal;
+   /* font-weight: 500; */
+   font-size: 16px;
+   line-height: 19px;
+   /* text-align: center; */
+   color: #FB2E86;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+/* accessories_fashion//////////
+//////////////////////////////
+///////////////////////////// */
+
+.accessories_with_button{
+   width: 68%;
+   display: flex;
+   justify-content: space-between;
+   margin: auto;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   /* background-color: red; */
+}
+
+.accessories_fashion h2{
+   font-family: 'Josefin Sans';
+   font-size: 22px;
+   line-height: 26px;
+   color: #151875;
+   font-weight: bold;
+}
+
+.accessories_fashion p{
+   font-family: 'Lato';
+   font-style: normal;
+   /* font-weight: 400; */
+   font-size: 12px;
+   line-height: 14px;
+   color: #8A8FB9;
+   font-weight: bold;
+   margin-top: 15px;
+}
+
+.accessories_with_button .dot{
+   color: #F6F5FF;
+   font-size: 100px;
+}
+
+/* .grid_boxes_all////////////
+////////////////////////////////
+/////////////////////////////// */
+
+.grid_boxes_all{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.grid_boxes_all .grid_box{
+   width: 100%;
+}
+
+.img_box_with_icons .grid_image img{
+   width: 80%;
+   height: 80%;
+   background-color: green;
+}
+
+.img_box_with_icons .grid_image{
+width: 100%;
+background-color: bisque;
+}
+
+.img_box_with_icons .icons{
+   color: #151875;
+   display: flex;
+   flex-direction: column;
+}
+
+.img_box_with_icons{
+   background-color: #F6F7FB;
+   display: flex;
+   height: 230px;
+   /* padding: 5px; */
+}
+
+.dec .name{
+   font-family: 'Josefin Sans';
+   font-size: 18px;
+   line-height: 21px;
+   /* text-align: center; */
+   color: #151875;
+} 
+
+.dot_sctn{
+   background-color: yellow;
+   display: flex;
+}
+
+.dot_sctn .dot{
+   font-size: 50px;
+   /* background-color: yellow; */
+}
+
+.dot_sctn .dot:nth-of-type(1){
+
+}
+
+.dot_sctn .dot:nth-of-type(2){
+
+}
+
+.dot_sctn .dot:nth-of-type(3){
+
+}
+
+.dec .amount{
+   font-family: 'Josefin Sans';
+   font-size: 14px;
+   line-height: 16px;
+   /* text-align: center; */
+   color: #151875;
+}
